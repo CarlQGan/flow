@@ -2,6 +2,7 @@ name: flow
 
 dependencies:
     - python==3.7.3
+    - setuptools==68.0.0
     - pip:
         - scipy==1.1.0
         - lxml==4.4.1
@@ -25,4 +26,4 @@ dependencies:
         - psutil
         - opencv-python
         - boto3==1.10.45
-        - redis~=2.10.6
+        - redis
